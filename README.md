@@ -101,6 +101,22 @@ This project showcases real-time analytics on the Google Play Store dataset with
 
 ## Project Structure
 
+NullClass-Tasks/
+│
+├── Cleaned Datasets/          
+├── Datasets/                  
+├── Graphs/                    
+├── Task1/                      # Word Cloud 
+├── Task2/                      # Dual-Axis Chart 
+├── Task3/                      # Choropleth Map
+├── Task4/                      # Time Series 
+├── Task5/                      # Bubble Chart
+│
+├── .gitignore                  
+├── GooglePlayStore.ipynb       
+├── LICENSE                     
+├── README.md                   
+├── Tkinter_vs_HTML.ipynb       # Comparison of dashboards (Tkinter vs Web)
 
 
 
@@ -133,8 +149,35 @@ Each chart is conditionally loaded based on its time window.
 
 
 ---
+## Clone the repo
 
+# Step 1: Clone the repository
+```
+git clone https://github.com/Jyothi-CY/NullClass-Tasks.git
+```
+# Step 2: Navigate to the project directory
+```
+cd NullClass-Tasks
+```
+# Step 3: Open the project folder
+```
+cd "E:\Data Analyst Intern Tasks\Jupyter"
+```
 
+# Create and activate a virtual environment
+```python -m venv venv
+venv\Scripts\activate  # On Windows
+```
+# Step 4: Install dependencies
+```
+pip install -r requirements.txt
+```
+# Step 5: Run the main Jupyter Notebook
+```
+jupyter notebook GooglePlayStore.ipynb
+```
+
+---
 ## Key Outcomes
 - Built a scalable, interactive analytics dashboard.
 - Integrated sentiment, install, and revenue data with visual intelligence.
