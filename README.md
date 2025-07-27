@@ -100,7 +100,7 @@ This project showcases real-time analytics on the Google Play Store dataset with
 ---
 
 ## Project Structure
-
+```
 NullClass-Tasks/
 │
 ├── Cleaned Datasets/          
@@ -117,9 +117,12 @@ NullClass-Tasks/
 ├── LICENSE                     
 ├── README.md                   
 ├── Tkinter_vs_HTML.ipynb       # Comparison of dashboards (Tkinter vs Web)
+├── GooglePlayStore_analysis.py             
+├── Tkinter_vs_HTML.py 
+├──Internship Report.pdf
 
 
-
+```
 ---
 
 ## Sentiment Analysis with NLP
